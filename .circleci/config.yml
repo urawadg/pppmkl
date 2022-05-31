@@ -8,4 +8,5 @@ jobs:
     executor: win/default
     steps:
       - checkout
-      - run: nvidia-smi
+      - run: '&"C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe"'
+
